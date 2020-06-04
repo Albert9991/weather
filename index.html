@@ -10,7 +10,7 @@
     <section class="App">
         <div>
             <div class="form">
-                <input type="text" placeholder="City" id="input" ">
+                <input type="text" placeholder="City" id="input" onkeyup="enterAction(event)" ">
                 <button onclick="gettingWeather()"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
             <p id="errorMessage"></p>
